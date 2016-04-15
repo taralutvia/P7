@@ -1,0 +1,16 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+  float x, y, hasil;
+  cout<<"masukan nilai    :";
+  cin>>x;
+  cout<<"masukan pangkat  :";
+  cin>>y;
+  hasil = pow(x,y);
+  cout<<hasil;
+  
+  return 0;
+}
